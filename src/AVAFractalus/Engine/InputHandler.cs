@@ -3,7 +3,8 @@ using Avalonia.Input;
 namespace AVAFractalus.Engine;
 
 /// <summary>
-/// Keyboard and gamepad boiled down to the controls: left and right, up and down (up the screen is -1), and three buttons.
+/// Keyboard and gamepad boiled down to the controls: left and right, up and down (up the screen is -1), faster and
+/// slower, fire, land and the airlock.
 /// </summary>
 public sealed class InputHandler : IDisposable
 {
